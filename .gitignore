@@ -4,8 +4,6 @@ Backend/node_modules/
 Frontend/node_modules/
 
 # Environment files (secrets)
-.env
-.env.*
 !.env.example
 Backend/.env
 Frontend/.env
@@ -26,7 +24,6 @@ pnpm-debug.log*
 # OS/editor files
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
 
 # TypeScript cache
@@ -47,3 +44,4 @@ pids
 *.pid
 *.pid.lock
 
+config.bat
